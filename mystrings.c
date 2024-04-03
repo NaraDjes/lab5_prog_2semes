@@ -9,7 +9,6 @@ size_t my_strlen(const char *str)
     return i;
 }
 
-
 char *my_strcat(char *dest, char *src)
 {
     char *tmp = dest + my_strlen(dest);
