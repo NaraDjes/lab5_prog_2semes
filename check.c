@@ -13,7 +13,6 @@ char *input(char *delim, char *dir)
     printf("dir: ");
     getchar(); // clear input buffer
     fgets(dir, 1000, stdin);
-    printf("%s", dir);
     // Удаляем символ новой строки, если он есть
     if (dir[strlen(dir) - 1] == '\n')
     {
